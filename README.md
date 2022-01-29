@@ -13,10 +13,14 @@ pip3 install -r api/requirements.txt
 
 ## Training the Model
 
-1. Download the data from [kaggle](https://www.kaggle.com/arjuntejaswi/plant-village).
-2. Only keep folders related to Tomato.
-3. Run Jupyter Notebook in Browser.
+4. Download the data from [kaggle](https://www.kaggle.com/arjuntejaswi/plant-village).
+5. Only keep folders related to Tomato.
+6. Run Jupyter Notebook in Browser.
 
 ```bash
 jupyter notebook
 ```
+7.  open 'tometo project.ipynb' in Jupyter Notebook.
+8.  In cell #2, update the path to dataset.
+9.  Run all the Cells one by one.
+10. Copy the model generated and save it with the version number in the `models` folder.
