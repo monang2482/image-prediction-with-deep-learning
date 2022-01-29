@@ -25,6 +25,10 @@ jupyter notebook
 9.  Run all the Cells one by one.
 10. Copy the model generated and save it with the version number in the `models` folder.
 
+we use 80% data for train model
+we use 10% data for validation
+we use 10% data for test our model
+
 ## Running the API
 
 ### Using FastAPI
