@@ -56,5 +56,5 @@ cd api
 ```
 
 2. Copy the `models.config.example` as `models.config` and update the paths in file.
-3. Run the TF Serve (Update config file path below)
+3. Run the TF Serve 
 
