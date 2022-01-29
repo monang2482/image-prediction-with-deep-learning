@@ -1,6 +1,6 @@
 # Tomato Dieses Classification
 
-In This project use dataset from kaggle.com with 10 different image classes.
+In This project use dataset from kaggle.com with 10 different image classes. and we get 94% of training Accuracy.
 
 ## Setup for Python:
 1. Install Python ([Setup instructions](https://wiki.python.org/moin/BeginnersGuide))
