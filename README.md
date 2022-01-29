@@ -24,3 +24,33 @@ jupyter notebook
 8.  In cell #2, update the path to dataset.
 9.  Run all the Cells one by one.
 10. Copy the model generated and save it with the version number in the `models` folder.
+
+## Running the API
+
+### Using FastAPI
+
+1. Get inside `api` folder
+
+```bash
+cd api
+```
+
+2. Run the FastAPI Server using uvicorn
+
+```bash
+uvicorn main:app --reload --host 0.0.0.0
+```
+
+3. Your API is now running at `0.0.0.0:8000`
+
+### Using FastAPI & TF Serve
+
+1. Get inside `api` folder
+
+```bash
+cd api
+```
+
+2. Copy the `models.config.example` as `models.config` and update the paths in file.
+3. Run the TF Serve (Update config file path below)
+
